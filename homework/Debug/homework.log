@@ -1,19 +1,18 @@
-﻿生成启动时间为 2020/12/11 11:13:10。
+﻿生成启动时间为 2020/12/11 11:38:06。
      1>项目“D:\MyFile\学习资料\数据结构\homework\homework\homework.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt my_function.cpp source_code\shortestpath.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt shortestpath.cpp
          shortestpath.cpp
-     1>d:\myfile\学习资料\数据结构\homework\homework\source_code\my_function.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\myfile\学习资料\数据结构\homework\homework\source_code\my_function.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\myfile\学习资料\数据结构\homework\homework\source_code\shortestpath.cpp(62): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\myfile\学习资料\数据结构\homework\homework\source_code\shortestpath.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\myfile\学习资料\数据结构\homework\homework\source_code\shortestpath.cpp(79): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\myfile\学习资料\数据结构\homework\homework\source_code\shortestpath.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
-         my_function.cpp
-     1>c1xx : fatal error C1083: 无法打开源文件:“my_function.cpp”: No such file or directory
-         正在生成代码...
-     1>已完成生成项目“D:\MyFile\学习资料\数据结构\homework\homework\homework.vcxproj”(Build 个目标)的操作 - 失败。
+     1>d:\myfile\学习资料\数据结构\homework\homework\shortestpath.cpp(50): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\myfile\学习资料\数据结构\homework\homework\shortestpath.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\myfile\学习资料\数据结构\homework\homework\shortestpath.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\myfile\学习资料\数据结构\homework\homework\shortestpath.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyFile\学习资料\数据结构\homework\Debug\homework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyFile\学习资料\数据结构\homework\Debug\homework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyFile\学习资料\数据结构\homework\Debug\homework.lib" /MACHINE:X86 Debug\my_function.obj
+         Debug\shortestpath.obj
+         homework.vcxproj -> D:\MyFile\学习资料\数据结构\homework\Debug\homework.exe
+     1>已完成生成项目“D:\MyFile\学习资料\数据结构\homework\homework\homework.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:00.72
+已用时间 00:00:01.05

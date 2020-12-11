@@ -1,18 +1,6 @@
-#include<iostream>
-#include<vector>
-#include<queue>
-#include"edge.h"
-#include"node.h"
-#include"my_function.cpp"
-
+#include "head.h"
 
 using namespace std;
-
-void relax(node * u, node * v, int w);
-edge * foundEdge(node * n1, node * n2, vector<edge *> edgeList);
-node * extract_min(vector<node *> Q);
-void printPath(node * node1, node* node2);
-static int time;
 
 
 int main()
@@ -108,4 +96,5 @@ int main()
 	getchar();
 	return 0;
 }
+
 

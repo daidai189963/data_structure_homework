@@ -25,5 +25,5 @@ public:
 
 };
 
-int node::countId = 0;
+
 

@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="my_function.cpp" />
-    <ClCompile Include="source_code\shortestpath.cpp" />
+    <ClInclude Include="edge.h" />
+    <ClInclude Include="head.h" />
+    <ClInclude Include="my_function.h" />
+    <ClInclude Include="node.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source_code\edge.h" />
-    <ClInclude Include="source_code\node.h" />
+    <ClCompile Include="my_function.cpp" />
+    <ClCompile Include="shortestpath.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2C739AA4-2AE2-4F1F-9C54-CCA7914EDF08}</ProjectGuid>

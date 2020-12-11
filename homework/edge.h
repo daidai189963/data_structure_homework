@@ -25,5 +25,5 @@ public:
 
 };
 
-int edge::countId = 0;
+
 /////
